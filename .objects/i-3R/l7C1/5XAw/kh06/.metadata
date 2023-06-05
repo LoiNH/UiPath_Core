@@ -1,0 +1,13 @@
+﻿{
+  "Id": "kh06FVHv2E2AubinEWli5A",
+  "Reference": "ywJwmYnVAkCUVs_WMvIWoQ/kh06FVHv2E2AubinEWli5A",
+  "ParentRef": "ywJwmYnVAkCUVs_WMvIWoQ/5XAw2vYv30-eDzfhA_kzLQ",
+  "Name": "Agree Term",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Created": "2023-06-05T01:41:52.5768519Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-06-05T01:41:52.5768519Z"
+}

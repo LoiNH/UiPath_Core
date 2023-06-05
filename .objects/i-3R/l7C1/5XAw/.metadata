@@ -1,0 +1,15 @@
+﻿{
+  "Id": "5XAw2vYv30-eDzfhA_kzLQ",
+  "Reference": "ywJwmYnVAkCUVs_WMvIWoQ/5XAw2vYv30-eDzfhA_kzLQ",
+  "ParentRef": "ywJwmYnVAkCUVs_WMvIWoQ/l7C1HbJmw0WxdSKoNeGgUg",
+  "Name": "Sign Up",
+  "Type": "Screen",
+  "Created": "2023-06-05T01:41:51.8655302Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-06-05T09:43:21.1270843Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "WH_NAatumk-pjLQqLuP1vw",
+  "Reference": "ywJwmYnVAkCUVs_WMvIWoQ/WH_NAatumk-pjLQqLuP1vw",
+  "ParentRef": "ywJwmYnVAkCUVs_WMvIWoQ/PZXK6F4TIECYgboJkoLp8A",
+  "Name": "Proceed to checkout",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-06-05T10:08:24.0329422Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-06-05T10:08:33.3235104Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

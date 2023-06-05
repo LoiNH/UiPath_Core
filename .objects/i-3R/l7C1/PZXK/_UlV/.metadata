@@ -1,0 +1,13 @@
+﻿{
+  "Id": "_UlVpWoRRE2BHqI4crAEfQ",
+  "Reference": "ywJwmYnVAkCUVs_WMvIWoQ/_UlVpWoRRE2BHqI4crAEfQ",
+  "ParentRef": "ywJwmYnVAkCUVs_WMvIWoQ/PZXK6F4TIECYgboJkoLp8A",
+  "Name": "ProductName",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2023-06-05T10:03:02.8747208Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-06-05T10:03:02.8747208Z"
+}

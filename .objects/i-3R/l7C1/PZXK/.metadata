@@ -1,0 +1,15 @@
+﻿{
+  "Id": "PZXK6F4TIECYgboJkoLp8A",
+  "Reference": "ywJwmYnVAkCUVs_WMvIWoQ/PZXK6F4TIECYgboJkoLp8A",
+  "ParentRef": "ywJwmYnVAkCUVs_WMvIWoQ/l7C1HbJmw0WxdSKoNeGgUg",
+  "Name": "Purchase Screen",
+  "Type": "Screen",
+  "Created": "2023-06-05T07:16:27.6110649Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-06-05T10:03:02.8110928Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

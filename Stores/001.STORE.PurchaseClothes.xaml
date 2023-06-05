@@ -1,0 +1,173 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="_001_STORE_PurchaseClothes" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Browser" Type="InArgument(ui:UiElement)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1020,2160.8</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>_001_STORE_PurchaseClothes_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Purchase clothes" sap:VirtualizedContainerService.HintSize="545.6,2096" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Purchase Screen" sap:VirtualizedContainerService.HintSize="483.2,1984" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[Browser]" OpenMode="Never" ScopeGuid="a06584a0-8211-4f37-bd88-89118015d721" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1847.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Default="Men" Name="clothesType" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Clothes Menu'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://teststore.automationtesting.co.uk/my-account" ContentHash="98lexEInu0iwyeOEAPhvuQ" CvTextArgument="CLOTHES" CvType="Text" DesignTimeRectangle="583, 191, 91, 29" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="' '" FullSelectorArgument="&lt;webctrl parentid='category-3' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='category-3' tag='A' type='' class='dropdown-item' aaname='                                                                                                                                                                                                                   Clothes               ' check:innerText='CLOTHES' /&gt;" Guid="fe8df656-0a87-436b-b00d-721874418a7a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF8AAAAhCAYAAAC/ZHdEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAALhSURBVGhD7Zjda9pQGIf3d4uIHApSgoQxBxakmDKh3nTMYi4cTKhQB0qxYOnG8MKylCKllMDIhchvJ8kbk2g08cg82zgPvBe+OZ6Px+P5yBsopKHkS0TJl4iSLxElXyJKvkSUfIko+RJR8iWyl3z7vgNDZyjkc8jleBQZ9JMW+k9zv8CjCc3N5zSYj34qmTlmN2a8rjyD9r4Z1uWyrG9zaG3LKzqoU64+8D6HWDDL68+stharJwwDy1ILG9/aVWiMnuULYHoVraspbCqyC8Lyrba+0skwateOXyiTfBuDM7ZWRxgMxpCGJlW+g9Gmfr7t4MUrsxti8u+aYNQwq/Vgea7ncB5GMD+YGC+8UpnkO0MDhUhd01/+THd+9mEc0+DyFXSfvXSEAQz6njGkVARh+WWTl0jA6aFK7Wmfpny0bs7GlP9ju3c02XZEQL6Dfo06X7rAJBCdRKp8B70TqqvYCH+0gMhMD2Z0yIHlL/vC0PxOuT0RkD9Gs+h3nn2cUG4DqfJHMGiNL5yPKRfFQkvzn+dOVyUeWH5k3DlWQetm5s/+PRCQHw668iVlpUuVH9a1PrN9Bqc04DUpGeVviyT5qxFp1+ZLJAsOBG6UqjDvRbZaHyWfyCLfZf7UR6NciJXRPyf3PQ0B+eFSoV2mNPpfLTtx7EkHtSOqJ89PRNv2vg0IyH9B9x01WmphStlEUuX/QxtuEj8u6NS3aXzbEZDPlV3X/I7yKJ316ajJ868zTL72MA5Wo1T5/Du3fB2luv7qo+ZtA1rdxOjBhuNOkoWDyWVw16miJ3DaFJLvXYzqmy5GEdGRmbsWy0HaGJ+Xkst4EblkxfhD8teCLll8s01+zidN4pKZjqB8F37BuGqichzZfLzXC/ySFcyCTPJ9ZrcZXi/EOLD85zHMuo5S8GqBR+FIR0Pw1YLLHvIV+6LkS0TJl4iSLxElXyJKvkSUfIko+RJR8iWi5EtEyZeIki8N4De49Ip//0qYDgAAAABJRU5ErkJggg==" InformativeScreenshot="94c2aa80aa7bf6932b7891e2e2bf4da2.png" Reference="ywJwmYnVAkCUVs_WMvIWoQ/V14TXrBJKUGlu6KIbUmfDA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='My account' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Men'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://teststore.automationtesting.co.uk/3-clothes" ContentHash="LzSWT3DIT0iAHqcXItDHyw" CvElementArea="410, 380, 212, 27" CvTextArea="412, 385, 36, 15" CvTextArgument="Men" CvType="InputBox" DesignTimeRectangle="413, 383, 208, 24" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Men'" FullSelectorArgument="[string.Format(&quot;&lt;webctrl aaname='{0}' parentid='left-column' tag='A' /&gt;&quot;, clothesType)]" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl aaname='{0}' parentid='left-column' tag='A' type='' class='' check:innerText='{0}' /&gt;&quot;, clothesType)]" Guid="c6796521-fbc9-4a36-927e-9345f029b882" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANQAAAAcCAYAAAAZZZHBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJzSURBVHhe7dgxa9tAAIbh/heBB0MGQQZt2jRFUEi3CDqIDDEZ7KmeYrqYLJqMty7BHYK2dAheioYOHQrulEDAm4eCN28ZDF/udHeyZMse2lvkfg8cxHdnZ/HLnfwORGQNgyKyiEERWcSgiCxiUEQWMSgiiypBzUchHMdRwx9ipuc3lphc6HU5ulM9T0TS/qCcAMlvvWD8mSAq1hkU0bb6oFoqmHA01yvK6j6urDMooqraoMKrDgIZzMVEXPKMFdJLGVKAzpUObyuoxbcBosBVa04b3nkfD/NXvSo89tTa9QOWP8eIzd4TDx8+Z+I/EDVbfVCjFENfRhEjNd/yVYqOPJmCBKk5yUpBLe4iNZeHFG3CakWYLPQmE1SrjbY55UojujMbiZqpNij3JkN2o4KI73VROgb/dra5Gpqg1hn6pyqK+GtRoD7R1HtyJigxvK44pdZibv2E5EzNOZcpTylqtPpnKBmK+fLraKZd+aX3Mfy1tU96TtQV0XERXvfR/6RG570+pcQVL1cEpT7HMPE6Z2NUn9qImmV/UOaKdzpAZk4g+ff2Pql08tQOE0qxL8T4JX9nrvg8BkUNtz+o4srmYnA7gCvm5VVwd59QnFABkmc1VYtB0ZE7EBSwLH5okMNF/3s+vRtU6RnKE3Pl56DXxQxP2z9KMCg6UgeDwssYYR6AGK0epvJHBGFnn7ASsXhmr+vB9314rnrde9SbGBQducNBYYYkUFGU46kLSlr++ILeuYd2Ho0YJx6CjwNMeULRf6ISFBH9GwZFZBGDIrKIQRFZxKCILGJQRBYxKCKLiqCyLOPg4PjLYfCEIrKIQRFZA7wBMFbrB4b5qn8AAAAASUVORK5CYII=" InformativeScreenshot="8926f6dc44ac51bceef1eb26a2bc2453.png" Reference="ywJwmYnVAkCUVs_WMvIWoQ/DPEfFxLQJUGNpkBviHOI9A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Clothes' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay DisplayName=" Delay 02 seconds" Duration="00:00:02" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ProductName'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a06584a0-8211-4f37-bd88-89118015d721" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://teststore.automationtesting.co.uk/4-men" ContentHash="j8OjG_GLXUyC8OZukOEy8g" CvTextArgument="Hummingbird Printed T-Shirt" CvType="Text" DesignTimeRectangle="698, 916, 191, 19" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'ProductName'" FullSelectorArgument="&lt;webctrl aaname='Hummingbird printed t-shirt' parentid='js-product-list' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Hummingbird printed t-shirt' parentid='js-product-list' tag='A' type='' class='' check:innerText='Hummingbird Printed T-Shirt' /&gt;" Guid="bf9b3e8c-d78b-481a-a9ec-fcd1e90f972e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMMAAAAXCAYAAAC20PuTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAN8SURBVHhe7ZZRcuswCEW7bm8h0z00v/1vNpFsI9mGKhDYgJCjpHLm5Zkz45nalhBcuE4/UhAESJghCIgwQxAQYYYgIMIMQUCEGYKAeHMzXNPpc0qHnyvdj6Aj5uWYpumYznTbzzkdpykdL3Q7iOvPIU2fp5z5i3lah2fo6fXf9FVmOH9NafpySntp0Y/wf5kB9c/v5dVT2+NmgBoH9LOpQ6nT1sLXWk21Bod0usGbgWbIeXtx3twMW7CFwZgOM0j9b6d0yOuH54JxtzSDpOjZ87XG+pumHtcXOGeYGfBLZNbprxMkDo7WXwgUhBqsXQ88u0cWBnshTx3DFo658nvIGepTucO5KzFaeuBziolvbC3lvtsMGaUr5znrUXLwtS918NlzXM5xvmo9qz2M2pvPNjr4sJ5026Ssaw87vz+v5Kj1rfvynb7lXrN/QzPAYUKoOSFeQ+cN2KPNYGLg4IiGY0xxz4O1lgetmRvq6ZEH8KA0oTjiGeYu4xg8/dUzOBfOEXoAvvZyyI0JsR5RH2K1NPlbDSim0smlxGnVLNG9tXTUZe79vpRzPNPVZsACvcs03xzgNUQfaBPPqKEascdZT2v4WXPgVnM3+zwz2KGwJgSqgdJUubkmNDEz97Uvsednnhm8Z6JOfUbBrbtC679O6R/OW2WKjrpoP5/Vyk/vWdj0l0EfCIl6w8FxR+y5Zwb598L93M0aTw/bPFhTNdTLbwH152HAy9RuzmV68r9rBoxtz4errHMHqJGPxtO8POMzqrjy/TxnHXUZfd2+ZNxaMmGGTM8wqTWeHlZ0WFM1osMMnv5MY/h68lcD0DJDle+CO0CNfDS+5l1gnrp3q3UZfd2+ZNxaMjszgy+El7utT2nj6WFF9wZONbemqT+zpRnwmdFa0Oy5k49G6/8Ycm9HXTmTl5uhuqcmv4MZSu4iZiN3b42OsdTvi05xhJ6ob5XfQlN/ZqgZ7OBTvs7wIFYD0nqcGa7pqvLJqHo76qKc+Kw1M3g6P2eGDK5FMUgQWLPakH/EDJnyRVtyP1XDBGdys8ul8uoyA6BjHC91LpKm/swoM2SkBks+ZS8/x0vmg+fzu5yH6kWL9ZoXtFbzGfS2ry7d/66+iPfKDHsFRVsbwmAX7M8Mt/xzTH8WylfCfnGC/bE/M6if+nKFEQIg/k0KAiLMEAREmCEIkJR+AecrV33fe3PPAAAAAElFTkSuQmCC" InformativeScreenshot="ba743b4eb687becb907547f47ea2e8e5.png" Reference="ywJwmYnVAkCUVs_WMvIWoQ/_UlVpWoRRE2BHqI4crAEfQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Men' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BlackColor'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://teststore.automationtesting.co.uk/men/1-1-hummingbird-printed-t-shirt.html#/1-size-s/8-color-white" ContentHash="HxXDPUKIC0CdWv53WzPFFQ" DesignTimeRectangle="983, 606, 20, 20" DesignTimeScaleFactor="1" ElementType="RadioButton" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl idx='2' tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl class='input-color' tag='INPUT' type='radio' aaname='' /&gt;" Guid="e849f0d9-03e2-41ca-8f3d-33e3eb54f207" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADQSURBVEhL7ZW9CoMwFEbzaIVCh04d+tgKDoYMLkFwUPx9gltOJNKCINLrluEsmntPbgL5zLIsEpnnOTBNkwr0CoLvxuM4yjAM0vf9X9CDXpvg9nip0ratdF0nJu6cj/fnWwV61XUtTdOsAkbRFlRVJd57Meye89IWlGUZJEHApWgLiqIQ59x1gjzPxVp7nSDLsnBMSbBLEhySBIckwSH02n3sNPl5rgkcMpSYIyQYjQXsglHPQA219AiBEyOTgCZDiTl+YGdEFp6BGmrXyPTyAQ0Wa7vQ0WaqAAAAAElFTkSuQmCC" InformativeScreenshot="108374259f9a83ff4442452a0e2d993b.png" Reference="ywJwmYnVAkCUVs_WMvIWoQ/hZ2o3yHd2kG7bIY8ALsN0w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Hummingbird printed t-shirt' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="983, 606, 25, 30" ElementType="Text" FriendlyName="'unchecked'" FullSelectorArgument="&lt;webctrl idx='2' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='' aaname='                                                 ' check:innerText='Black' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAiCAYAAACjv9J3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFBSURBVFhH7ZZNa4NAEED70wqFHnrqoT9bwYPiQRARVBQ/f8GUtzCySWM+zNoeuocXctiZNzMbMvuyLIso8zwbpmlyguazHWCktmwcRxmGQfq+fwpykOuSfJW+vn86pW1b6brOyFW8SrVDDr59fDmBXGVZSlVVRn4uNlLG4FqaZZkURWHEdIxjlVIBlbiWxnFsxHRsd7tKuXjX0iiKJE1T023TNMahIz5MGoahJEkieZ5LXde/Iw2CwIzYS710N17qpU74X9K7//BdcnO1sWBZtCxcFi9jIYhqGdMjEEMsOTaXOGaeEjwpeFpQGYepkvEQ/AjEEHv1ucIXu1sOUR0B3MceiL36MOPDFlMVB7kHfgB7IJYcm09QlaqYMXCQi38GcpBLhT+kii13wblMOZHaaMBeLuVUNqVH4qWH8gfSRb4Bqrh46pom3lwAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NSelectItem DisplayName="Select Item 'Size'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="S" Version="V3">
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="http://teststore.automationtesting.co.uk/men/1-1-hummingbird-printed-t-shirt.html#/1-size-s/8-color-white" ContentHash="7zmgav8dqESFeWDO_bsqfw" CvElementArea="946, 520, 62, 42" CvTextArea="956, 533, 10, 15" CvTextArgument="S" CvType="InputBox" DesignTimeRectangle="948, 522, 58, 38" DesignTimeScaleFactor="1" ElementType="DropDown" FriendlyName="'S'" FullSelectorArgument="&lt;webctrl id='group_1' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='group_1' tag='SELECT' type='' class='form-control form-control-select' aaname='' /&gt;" Guid="bed47795-9b74-49ef-85bd-dd52d49641dd" InformativeScreenshot="2d5f54035b1480a5c8962d89e2e8c114.png" Reference="ywJwmYnVAkCUVs_WMvIWoQ/rEV0ZVW-9UKuH_AVNDBbcw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Hummingbird printed t-shirt' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Quantity'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="5" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="http://teststore.automationtesting.co.uk/men/1-1-hummingbird-printed-t-shirt.html#/1-size-s/8-color-white" ContentHash="9rzKljSnBEWLweETflsWAw" CvElementArea="946, 692, 76, 49" CvTextArea="956, 708, 8, 15" CvTextArgument="1" CvType="InputBox" DesignTimeRectangle="948, 694, 48, 44" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'1'" FullSelectorArgument="&lt;webctrl id='quantity_wanted' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='quantity_wanted' tag='INPUT' type='number' class='input-group form-control' aaname='' /&gt;" Guid="5ee4ab0b-1edd-4191-852a-0bdae7010938" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAwCAYAAABe6Vn9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEfSURBVGhD7do9boNAGIRh34VLuEsdKTmDi3TpcoIoZ4jc+RIpU+0FQEIRawpcICQKEH/buZtkV4a4SCob+WM1rzQFVDxa6FgZYzBuGAa3vu8XOwc6h3Rdh7Zt0TTNIjeBlFJebDWejL1YaufP7kD2NfMGZE/HfjNegezHRJCgCJIeQdIjSHoESY8g6V0JZKA/P6D25nR9uy4HHTV2mzWCIMDj++F083ZdBDp+7fB0F2C9ecXzvQcg7Ld4eVM/L9wB2wcfQFMEzZZ99nE8od8Imi2C/o6g2boSSE4ESY8g6REkPYKkR5D0CJIeQdL7F+TDHMj+eFFVFYqiQJZlSJIEcRwjiiKEYbioTb/G1HWNsiyR57lDpWkKrbXDLWcJvgFmfsMxtC4YUQAAAABJRU5ErkJggg==" InformativeScreenshot="4af652b3594599db2c5466eaf0504a73.png" Reference="ywJwmYnVAkCUVs_WMvIWoQ/AIt8Ej0JWkyS8BYrjdf4eg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Hummingbird printed t-shirt' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add to cart'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://teststore.automationtesting.co.uk/men/1-1-hummingbird-printed-t-shirt.html#/1-size-s/8-color-white" ContentHash="6TV859cQXUGAKcNaNtw1kg" CvElementArea="1024, 134, 190, 49" CvTextArea="1082, 150, 111, 15" CvTextArgument="ADD TO CART" CvType="Button" DesignTimeRectangle="1025, 136, 186, 44" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="' Add to cart'" FullSelectorArgument="&lt;webctrl parentid='add-to-cart-or-refresh' tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='add-to-cart-or-refresh' tag='BUTTON' type='submit' class='btn btn-primary add-to-cart' aaname='                          Add to cart           ' check:innerText=' ADD TO CART' /&gt;" Guid="3d646675-8095-4b81-927e-afd01e5113af" ImageBase64="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" InformativeScreenshot="f3f69dcfe8f95a103d9151a94276851a.png" Reference="ywJwmYnVAkCUVs_WMvIWoQ/v6Zhhohav0uYueV8SjLYjw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Hummingbird printed t-shirt' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Proceed to checkout'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://teststore.automationtesting.co.uk/men/1-1-hummingbird-printed-t-shirt.html#/1-size-s/8-color-white" ContentHash="F4AhJIwmE0W9fD7C6G-Hnw" CvTextArgument="PROCEED TO CHECKOUT" CvType="Text" DesignTimeRectangle="1134, 481, 266, 42" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Proceed to checkout'" FullSelectorArgument="&lt;webctrl parentid='blockcart-modal' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='blockcart-modal' tag='A' type='' class='btn btn-primary' aaname='Proceed to checkout' check:innerText='PROCEED TO CHECKOUT' /&gt;" Guid="7c3e7298-b779-46ed-8a3e-e44567d1e329" ImageBase64="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" InformativeScreenshot="39c1196027c5e0b42983aaf5d68a3dc9.png" Reference="ywJwmYnVAkCUVs_WMvIWoQ/WH_NAatumk-pjLQqLuP1vw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Hummingbird printed t-shirt' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="ebXtB2RGLkOih3vveFYJjQ" IconBase64="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" InformativeScreenshot="867a8c7900b2ab92283824ba8f39b084.jpg" Reference="ywJwmYnVAkCUVs_WMvIWoQ/PZXK6F4TIECYgboJkoLp8A" Selector="&lt;html app='msedge.exe' title='My account' /&gt;" Title="My account" Url="http://teststore.automationtesting.co.uk/my-account" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

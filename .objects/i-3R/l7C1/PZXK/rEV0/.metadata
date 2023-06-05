@@ -1,0 +1,13 @@
+﻿{
+  "Id": "rEV0ZVW-9UKuH_AVNDBbcw",
+  "Reference": "ywJwmYnVAkCUVs_WMvIWoQ/rEV0ZVW-9UKuH_AVNDBbcw",
+  "ParentRef": "ywJwmYnVAkCUVs_WMvIWoQ/PZXK6F4TIECYgboJkoLp8A",
+  "Name": "Size",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2023-06-05T10:03:02.9333221Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-06-05T10:03:02.9333221Z"
+}

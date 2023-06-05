@@ -1,0 +1,13 @@
+﻿{
+  "Id": "V14TXrBJKUGlu6KIbUmfDA",
+  "Reference": "ywJwmYnVAkCUVs_WMvIWoQ/V14TXrBJKUGlu6KIbUmfDA",
+  "ParentRef": "ywJwmYnVAkCUVs_WMvIWoQ/PZXK6F4TIECYgboJkoLp8A",
+  "Name": "Clothes Menu",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-06-05T07:16:27.7482837Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-06-05T07:16:27.7482837Z"
+}

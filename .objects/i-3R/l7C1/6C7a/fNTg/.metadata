@@ -1,0 +1,13 @@
+﻿{
+  "Id": "fNTg9zW2wE-9Pbe-6L9FGA",
+  "Reference": "ywJwmYnVAkCUVs_WMvIWoQ/fNTg9zW2wE-9Pbe-6L9FGA",
+  "ParentRef": "ywJwmYnVAkCUVs_WMvIWoQ/6C7aNZ-q7U2-ESYuz--4LQ",
+  "Name": "Sign in Link",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-06-05T06:43:06.6083464Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-06-05T06:43:06.6083464Z"
+}

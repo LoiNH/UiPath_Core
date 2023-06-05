@@ -1,0 +1,13 @@
+﻿{
+  "Id": "DPEfFxLQJUGNpkBviHOI9A",
+  "Reference": "ywJwmYnVAkCUVs_WMvIWoQ/DPEfFxLQJUGNpkBviHOI9A",
+  "ParentRef": "ywJwmYnVAkCUVs_WMvIWoQ/PZXK6F4TIECYgboJkoLp8A",
+  "Name": "Men",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-06-05T07:16:27.8124417Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-06-05T07:16:27.8124417Z"
+}

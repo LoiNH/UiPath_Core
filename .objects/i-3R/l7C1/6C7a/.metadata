@@ -1,0 +1,15 @@
+﻿{
+  "Id": "6C7aNZ-q7U2-ESYuz--4LQ",
+  "Reference": "ywJwmYnVAkCUVs_WMvIWoQ/6C7aNZ-q7U2-ESYuz--4LQ",
+  "ParentRef": "ywJwmYnVAkCUVs_WMvIWoQ/l7C1HbJmw0WxdSKoNeGgUg",
+  "Name": "Sign In",
+  "Type": "Screen",
+  "Created": "2023-06-05T06:43:06.4891378Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-06-05T11:23:54.186889Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

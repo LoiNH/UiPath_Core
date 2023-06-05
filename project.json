@@ -1,0 +1,80 @@
+{
+  "name": "Gmail",
+  "description": "Gmail IMAP",
+  "main": "Workflows\\001.Store.Register.Account.xaml",
+  "dependencies": {
+    "Open.Browser.Lib": "[1.0.2]",
+    "UiPath.Excel.Activities": "[2.20.1]",
+    "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.System.Activities": "[23.4.2]",
+    "UiPath.Testing.Activities": "[23.4.0]",
+    "UiPath.UIAutomation.Activities": "[23.4.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Mails\\OutlookEmail.xaml",
+      "uniqueId": "4a864cb4-cddf-4d2e-8906-411ca785fb7f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Mails\\GmailEmail.xaml",
+      "uniqueId": "2506cee4-fe75-423c-8100-4e3050a35228",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Workflows\\001.Store.Purchase.Clothes.xaml",
+      "uniqueId": "5a7be4ee-5023-4a99-b19f-687ae3f78f47",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Workflows\\001.Store.Register.Account.xaml",
+      "uniqueId": "f9293156-294c-472d-b40c-9ce0c0264f03",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

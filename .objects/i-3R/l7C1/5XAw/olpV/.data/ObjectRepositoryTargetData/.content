@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WRLOe-LpUkq9IQyYCUnZsw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://teststore.automationtesting.co.uk/login?create_account=1" DesignTimeRectangle="789, 551, 288, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='email' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='email' class='form-control' aaname='' /&gt;" Guid="c20743b7-fdf5-445c-bb63-be699920b9b9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAASQAAAAqCAYAAAAahCYoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAC3SURBVHhe7dSxDYAwAMAw/v+nh/WCMhWJgZVmcCS/kGtJUiRDkpTpGdIYA+CI3WtIc06AXxkSkGFIQIYhARmGBGQYEpBhSECGIQEZhgRkGBKQYUhAhiEBGYYEZBgSkGFIQIYhARmGBGQYEpBhSECGIQEZhgRkGBKQYUhAhiEBGYYEZBgSkGFIQIYhARmGBGQYEpBhSECGIQEZhgRkGBKQYUhAhiEBGZ9DAjhh9wxJkk5nSJIirXUDb6sf68lzHjoAAAAASUVORK5CYII=" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="615, 551, 159, 30" ElementType="Text" FriendlyName="'Email'" FullSelectorArgument="&lt;webctrl aaname='               Email           ' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='               Email           ' tag='LABEL' type='' class='col-md-3 form-control-label required' check:innerText='Email' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKMAAAAiCAYAAAAzgGn9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAExSURBVHhe7dfRDYIwFEZhd+k6sovMYljFuAoJCaNc21oRKlg0kPzG8yU82Kv4cnLFQ9/3BiggRsggRsggRsggRsggRsggRsggRsggRsggRsggRsggRsggRsggRsggRsggRsggRnzgarVzVl/Sy0ttztX+dBvE+MOuJ+djyK/t4nhFjFgQYzztl14RMeLhfYxhi/lQ2saqYWtW1rR+FCN6nGUxTWb5nM2IBeUY/fzYWJdOunN1D2z4TGfNMbtH2w3vD6bfQYxYMPvMuBROELdk2o5JDHQUbC7OiRElazbja4wzP8uTGNNGHV/EiJLNY0zPl9X5mSabEatsHuNMXMSIVfbZjKNnyrQpiRFFs39ghji+iNGb3DOchzkx4t8QI2QQI2QQI2QQI2QQI2QQI0SY3QCSJxbJhEnuQQAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d0d8b23f44f55f66df04ede60ceb394e.png" xmlns="">0JkNfesEtjEqbKrc1nC5w7g</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

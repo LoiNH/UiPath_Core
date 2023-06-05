@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Jb3RLPHwEEmTyGijEL-xNQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://teststore.automationtesting.co.uk/men/1-1-hummingbird-printed-t-shirt.html#/1-size-s/8-color-white" CvType="CheckBox" DesignTimeRectangle="948, 606, 20, 20" DesignTimeScaleFactor="1" ElementType="RadioButton" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='radio' class='input-color' aaname='' /&gt;" Guid="20d3c8a3-3d57-479c-9d26-ebe1b1ab5ccb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADNSURBVEhL7ZVNCsMgEEa9S+5/kwhZGFy4kUAWSn5PMOUZLC1tCSFm1Qx8K2fmzSj4qXVdJWtZlqR5nouIXgnw2niaJhnHUYZhOCV60OsJqKqqqEIIEmMUlSf/lnRGXddJ3/cbgFXywdnIfZxz4r0XxfTcV2mAMSZBEoBHKQ1omkastdcBtNbStu11gLqu0zXdgI+4AbtxA3bjDwCl9POzK6W37xrDwUOxOUyC1UhgClY9ImqopUcynGyZGDQeis1xAJ0VSTwiaqjdLNPLA9M4R50BQropAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Hummingbird printed t-shirt' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="948, 606, 25, 30" ElementType="Text" FriendlyName="'checked'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='                                                 ' check:innerText='White' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAiCAYAAACjv9J3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAE7SURBVFhH7ZZNaoRAEEZzF+9/EwUXigtBRFBR/D1BhddQ0pnoBLVNFmnhk1n0V6+qerDqY11XUS3LYjTPsxNpPJuBDNSGTdMk4zjKMAy3RAxi7cE3aBAETtV1nfR9b+AK3qBa4Z7xjqqqkrquDfwVbKC0QQ/ffTROnudSlqUBUzGMDUoGZOIamiSJAVOxXe0G5eJdQ+M4lizLTLVt2xqGtvgxaBRFkqapFEUhTdP8DjQMQ9NiD/XQS4+Heug/g7rSqQ++K/042hiwDFoGLoOXtmAiW9p0RnjwEuNwiENmlWClYLUgMw6TJe3BfEZ48L5dV/hhV8shssPAfVwR3reLGS8bTFYc5B74A1wRXmIcrqAKVTBt4CAXf0fEIJYCv0FVNtyFXmGqL1BbariqvZiqQ+iT8tBH9QfQVT4BDslUzO+Ec6sAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="77e8f4d8eff2ac92b3636123023eccf1.png" xmlns="">0VKRVtWxn70iiGHJdkXsEyQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

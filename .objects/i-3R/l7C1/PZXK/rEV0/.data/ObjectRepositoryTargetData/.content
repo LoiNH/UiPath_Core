@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7zmgav8dqESFeWDO_bsqfw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://teststore.automationtesting.co.uk/men/1-1-hummingbird-printed-t-shirt.html#/1-size-s/8-color-white" CvElementArea="946, 520, 62, 42" CvTextArea="956, 533, 10, 15" CvTextArgument="S" CvType="InputBox" DesignTimeRectangle="948, 522, 58, 38" DesignTimeScaleFactor="1" ElementType="DropDown" FriendlyName="'S'" FullSelectorArgument="&lt;webctrl id='group_1' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='group_1' tag='SELECT' type='' class='form-control form-control-select' aaname='' /&gt;" Guid="bed47795-9b74-49ef-85bd-dd52d49641dd" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Hummingbird printed t-shirt' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2d5f54035b1480a5c8962d89e2e8c114.png" xmlns="">0oHTKQAC310qaQKiGGBVZoA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

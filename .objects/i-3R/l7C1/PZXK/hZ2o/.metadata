@@ -1,0 +1,13 @@
+﻿{
+  "Id": "hZ2o3yHd2kG7bIY8ALsN0w",
+  "Reference": "ywJwmYnVAkCUVs_WMvIWoQ/hZ2o3yHd2kG7bIY8ALsN0w",
+  "ParentRef": "ywJwmYnVAkCUVs_WMvIWoQ/PZXK6F4TIECYgboJkoLp8A",
+  "Name": "BlackColor",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Created": "2023-06-05T10:03:03.0773115Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-06-05T10:03:03.0773115Z"
+}
